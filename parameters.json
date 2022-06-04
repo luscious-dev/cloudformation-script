@@ -1,0 +1,98 @@
+[
+  {
+    "ParameterKey": "VPCCIDR",
+    "ParameterValue": "10.0.0.0/16"
+  },
+  {
+    "ParameterKey": "EnvironmentName",
+    "ParameterValue": "MeetupTask"
+  },
+  {
+    "ParameterKey": "PublicSubnet1CIDR",
+    "ParameterValue": "10.0.0.0/19"
+  },
+  {
+    "ParameterKey": "PublicSubnet2CIDR",
+    "ParameterValue": "10.0.32.0/19"
+  },
+  {
+    "ParameterKey": "WebSubnet1CIDR",
+    "ParameterValue": "10.0.64.0/19"
+  },
+  {
+    "ParameterKey": "WebSubnet2CIDR",
+    "ParameterValue": "10.0.96.0/19"
+  },
+  {
+    "ParameterKey": "AppSubnet1CIDR",
+    "ParameterValue": "10.0.128.0/19"
+  },
+  {
+    "ParameterKey": "AppSubnet2CIDR",
+    "ParameterValue": "10.0.160.0/19"
+  },
+  {
+    "ParameterKey": "DatabaseSubnet1CIDR",
+    "ParameterValue": "10.0.192.0/19"
+  },
+  {
+    "ParameterKey": "DatabaseSubnet2CIDR",
+    "ParameterValue": "10.0.224.0/19"
+  },
+  {
+    "ParameterKey": "AppLoadBalancerName",
+    "ParameterValue": "app-load-balancer-054a36"
+  },
+  {
+    "ParameterKey": "AppAutoScalingName",
+    "ParameterValue": "app-auto-scaling-054a36"
+  },
+  {
+    "ParameterKey": "WebLoadBalancerName",
+    "ParameterValue": "web-load-balancer-054a36"
+  },
+  {
+    "ParameterKey": "WebAutoScalingName",
+    "ParameterValue": "web-auto-scaling-054a36"
+  },
+  {
+    "ParameterKey": "DBSubnetGroupName",
+    "ParameterValue": "db-subnet-group"
+  },
+  {
+    "ParameterKey": "DBInstanceClassName",
+    "ParameterValue": "db.m4.large"
+  },
+  {
+    "ParameterKey": "DBAllocatedStorage",
+    "ParameterValue": "2"
+  },
+  {
+    "ParameterKey": "DBMaxAllocatedStorage",
+    "ParameterValue": "3"
+  },
+  {
+    "ParameterKey": "DBPrimaryName",
+    "ParameterValue": "project-db-054a36"
+  },
+  {
+    "ParameterKey": "DBSecondaryName",
+    "ParameterValue": "replication-db-054a36"
+  },
+  {
+    "ParameterKey": "DBUsername",
+    "ParameterValue": "admin"
+  },
+  {
+    "ParameterKey": "DBPassword",
+    "ParameterValue": "admin"
+  },
+  {
+    "ParameterKey": "WebBucketName",
+    "ParameterValue": "project-bucket-054a36"
+  },
+  {
+    "ParameterKey": "LaunchTemplateName",
+    "ParameterValue": "project-ec2-template"
+  }
+]
